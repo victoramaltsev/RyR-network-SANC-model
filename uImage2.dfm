@@ -1,0 +1,30 @@
+object fImage2: TfImage2
+  Left = 0
+  Top = 0
+  Margins.Left = 4
+  Margins.Top = 4
+  Margins.Right = 4
+  Margins.Bottom = 4
+  Caption = 'Image2'
+  ClientHeight = 220
+  ClientWidth = 496
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -17
+  Font.Name = 'Tahoma'
+  Font.Style = [fsBold]
+  OnCreate = FormCreate
+  PixelsPerInch = 144
+  TextHeight = 21
+  object Image1: TImage
+    Left = 0
+    Top = 0
+    Width = 385
+    Height = 181
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+  end
+end
